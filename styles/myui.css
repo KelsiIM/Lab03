@@ -1,0 +1,38 @@
+.bkimg{
+    background-image: url(../duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol{
+    color: #000000 !important;
+}
+
+.join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+.card-info-1{
+    display: flex; 
+    flex-direction: column; 
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item span {
+    margin-right: 5px; 
+}
+
+@media screen and (max-width: 768px) {
+    .uk-width-1-2{
+        width: 100% !important;
+    }
+
+    .bkimg{
+        order: -1;
+    }
+
+}
